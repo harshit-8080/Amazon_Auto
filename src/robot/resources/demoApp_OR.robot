@@ -1,0 +1,15 @@
+*** Variables ***
+${loginButton}    //a[@id='a-autoid-0-announce']
+${input_mailID}    //input[@id='ap_email']
+${continueButton}    //input[@id='continue']
+${input_password}    //input[@id='ap_password']
+${login}    //input[@id='signInSubmit']
+${Search_Input}    //input[@id='twotabsearchtextbox']
+${goFor_Search}    //input[@id='nav-search-submit-button']
+${mi10i6gb}    //span[contains(text(),'Atlantic ')]//parent::a
+${blackMI}    //img[@alt='Midnight Black']
+${buyNow}    //input[@id='buy-now-button']
+${mycard}    //input[@value='instrumentId=0h_PE_CUS_0cdf571d-c0ac-45a9-aade-5b5d8d384620&isExpired=false&paymentMethod=CC&tfxEligible=false']
+${mycv}    //input[@name='addCreditCardVerificationNumber0']
+${continueBeforePay}    (//input[@name='ppw-widgetEvent:SetPaymentPlanSelectContinueEvent' and @type='submit'])[1]
+${place and pay}    //input[@title='Place Your Order and Pay' and @name='placeYourOrder1']
